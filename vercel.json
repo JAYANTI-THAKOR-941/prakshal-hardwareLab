@@ -5,6 +5,10 @@
   "outputDirectory": "dist",
   "rewrites": [
     {
+      "source": "/hardware-assets/:file(motherboard|graphics-card|cpu-cooler|gaming-pc|desktop-computer-set).glb",
+      "destination": "https://vinish-models.pages.dev/computers/:file.glb"
+    },
+    {
       "source": "/(.*)",
       "destination": "/index.html"
     }
