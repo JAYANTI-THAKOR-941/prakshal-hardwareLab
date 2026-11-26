@@ -1,0 +1,5 @@
+import {Link} from 'react-router-dom'; import {motion} from 'framer-motion'
+export default function Home(){return <motion.div initial={{opacity:0,y:8}} animate={{opacity:1,y:0}} className="space-y-6">
+<section className="card"><p className="text-sm font-medium text-brand">Prakshal IT Academy, Gandhinagar</p><h1 className="mt-1 text-3xl font-bold">Prakshal HardwareLab</h1><p className="mt-1 text-slate-500">Explore. Assemble. Diagnose. Master.</p>
+<div className="mt-5 flex flex-wrap gap-2"><Link className="btn" to="/lab">Open 3D Lab</Link><Link className="btn-o" to="/library">Hardware Library</Link><Link className="btn-o" to="/quiz">Take a Quiz</Link></div></section>
+<div className="grid gap-4 md:grid-cols-3">{[['Study','Hinglish notes, specs, troubleshooting aur practicals.','/library'],['Inspect','Motherboard ke 11 parts par click karke dekho.','/lab'],['Assess','Quiz do aur weak topics track karo.','/dashboard']].map(([t,d,to])=><Link key={t} to={to} className="card hover:border-brand"><h2 className="font-semibold">{t}</h2><p className="mt-1 text-sm text-slate-500">{d}</p></Link>)}</div></motion.div>}

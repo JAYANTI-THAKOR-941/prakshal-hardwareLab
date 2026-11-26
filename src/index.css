@@ -1,0 +1,8 @@
+@import "tailwindcss";
+@custom-variant dark (&:where(.dark, .dark *));
+@theme{--font-sans:Poppins,system-ui,sans-serif;--color-brand:#2E7D32;--color-accent:#8CC63F;--color-paper:#F8FAFC;--color-ink:#0f172a}
+body{@apply bg-paper text-slate-800 antialiased}
+.dark body{@apply bg-slate-950 text-slate-200}
+.card{@apply rounded-xl border border-slate-200 bg-white p-5 dark:border-slate-800 dark:bg-slate-900}
+.btn{@apply inline-flex items-center gap-2 rounded-lg bg-brand px-4 py-2 text-sm font-medium text-white transition hover:bg-green-800 focus-visible:outline-2 focus-visible:outline-accent disabled:opacity-50}
+.btn-o{@apply inline-flex items-center gap-2 rounded-lg border border-slate-300 px-3 py-1.5 text-sm transition hover:bg-slate-100 dark:border-slate-700 dark:hover:bg-slate-800}

@@ -1,0 +1,3 @@
+import {Link} from 'react-router-dom'; import {MODULES} from '../data/modules'; import {useStore} from '../store'; import {CheckCircle2} from 'lucide-react'
+export default function Library(){const done=useStore(s=>s.done);return <div className="space-y-4"><h1 className="text-2xl font-semibold">Hardware Library</h1>
+<div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">{MODULES.map(m=><Link key={m.id} to={m.id} className="card hover:border-brand"><div className="flex justify-between"><h2 className="font-semibold">{m.title}</h2>{done.includes(m.id)&&<CheckCircle2 className="text-brand" size={18}/>}</div><p className="mt-1 text-sm text-slate-500">{m.blurb}</p></Link>)}</div></div>}
