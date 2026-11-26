@@ -3,7 +3,7 @@ import {Routes,Route,NavLink,Link,useLocation,useNavigate} from 'react-router-do
 import {Home as HomeI,BookOpen,Box,ClipboardCheck,LayoutDashboard,Moon,Sun,Menu,Search,ChevronRight} from 'lucide-react'
 import {useStore} from './store'; import {MODULES} from './data/modules'
 import Home from './pages/Home'; import Library from './pages/Library'; import ModulePage from './pages/ModulePage'; import Quiz from './pages/Quiz'; import Dashboard from './pages/Dashboard'
-const Lab=lazy(()=>import('./pages/Lab'))
+const Lab=lazy(()=>import('./pages/AdvancedLab'))
 const nav=[['/',HomeI,'Home'],['/library',BookOpen,'Hardware Library'],['/lab',Box,'3D Lab'],['/quiz',ClipboardCheck,'Quiz'],['/dashboard',LayoutDashboard,'Dashboard']] as const
 function Crumbs(){const p=useLocation().pathname.split('/').filter(Boolean);return <nav aria-label="Breadcrumb" className="flex items-center gap-1 text-xs text-slate-500"><Link to="/">Home</Link>{p.map((s,i)=><span key={i} className="flex items-center gap-1"><ChevronRight size={12}/><span className="capitalize">{MODULES.find(m=>m.id===s)?.title??s}</span></span>)}</nav>}
 function SearchBox(){const [q,setQ]=useState('');const go=useNavigate();const r=q.trim()?MODULES.filter(m=>(m.title+m.blurb+m.intro).toLowerCase().includes(q.toLowerCase())):[]
