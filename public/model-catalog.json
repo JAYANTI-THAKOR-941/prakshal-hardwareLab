@@ -1,0 +1,90 @@
+[
+  {
+    "file": "motherboard.glb",
+    "title": "ASUS ROG Strix B550-F",
+    "author": "MUSHROOM_BUILDS",
+    "id": "3eba5f45bed74fbeb2647de38047000f",
+    "sha": "3df4f0eb88020377175841937558ddd12824b454",
+    "size": 8073496,
+    "license": "CC BY 4.0",
+    "url": "https://raw.githubusercontent.com/Jacob-Baker-Git/CustomPc/45995ba9341a685d71946bc87bbd907b0f60af06/public/models/motherboard.glb",
+    "source": "https://sketchfab.com/models/3eba5f45bed74fbeb2647de38047000f"
+  },
+  {
+    "file": "cpu.glb",
+    "title": "PC CPU processor",
+    "author": "apleesee",
+    "id": "efb6b95b255c4a37a9661df178ea3bb3",
+    "sha": "aa203cf51b5e11d178f20f9bfd1f0b6fd6b5dee2",
+    "size": 239048,
+    "license": "CC BY 4.0",
+    "url": "https://raw.githubusercontent.com/Jacob-Baker-Git/CustomPc/45995ba9341a685d71946bc87bbd907b0f60af06/public/models/cpu.glb",
+    "source": "https://sketchfab.com/models/efb6b95b255c4a37a9661df178ea3bb3"
+  },
+  {
+    "file": "gpu.glb",
+    "title": "GeForce RTX 3080",
+    "author": "_surovic_",
+    "id": "8b947ee1bf7a4e3d8ffa1c24893ac160",
+    "sha": "40923c526bf802c3b17139778e9fa0e37a7f818b",
+    "size": 1412620,
+    "license": "CC BY 4.0",
+    "url": "https://raw.githubusercontent.com/Jacob-Baker-Git/CustomPc/45995ba9341a685d71946bc87bbd907b0f60af06/public/models/gpu.glb",
+    "source": "https://sketchfab.com/models/8b947ee1bf7a4e3d8ffa1c24893ac160"
+  },
+  {
+    "file": "ram.glb",
+    "title": "Corsair Vengeance RGB PRO",
+    "author": "Nouraiz",
+    "id": "9b163c4d5ad34edca58488500b5f4daf",
+    "sha": "84f0b228331c7db5b058094b15eff617ea52901f",
+    "size": 532292,
+    "license": "CC BY 4.0",
+    "url": "https://raw.githubusercontent.com/Jacob-Baker-Git/CustomPc/45995ba9341a685d71946bc87bbd907b0f60af06/public/models/ram.glb",
+    "source": "https://sketchfab.com/models/9b163c4d5ad34edca58488500b5f4daf"
+  },
+  {
+    "file": "storage.glb",
+    "title": "Samsung 990 PRO 1TB NVMe",
+    "author": "lime.ball.animations",
+    "id": "41b7bfda7eab40f8b13330913fd66fc2",
+    "sha": "c8f05c2cb20b841f19b4317a884e2ccf3f1eb0f2",
+    "size": 429224,
+    "license": "CC BY 4.0",
+    "url": "https://raw.githubusercontent.com/Jacob-Baker-Git/CustomPc/45995ba9341a685d71946bc87bbd907b0f60af06/public/models/storage.glb",
+    "source": "https://sketchfab.com/models/41b7bfda7eab40f8b13330913fd66fc2"
+  },
+  {
+    "file": "psu.glb",
+    "title": "PSU Power Supply Unit",
+    "author": "Groovex",
+    "id": "69ccd1be3a77497cb2acc9e39e7c52b3",
+    "sha": "a1448de29a0a80b19d1968541f98602a870e8e83",
+    "size": 139236,
+    "license": "CC BY 4.0",
+    "url": "https://raw.githubusercontent.com/Jacob-Baker-Git/CustomPc/45995ba9341a685d71946bc87bbd907b0f60af06/public/models/psu.glb",
+    "source": "https://sketchfab.com/models/69ccd1be3a77497cb2acc9e39e7c52b3"
+  },
+  {
+    "file": "cooler.glb",
+    "title": "Liquid CPU Cooling",
+    "author": "Denzerru",
+    "id": "7a0014c1141a4c25bc69912075526ee5",
+    "sha": "7990ca1bd694e4ff13e95b67a125a19bd156d63f",
+    "size": 628004,
+    "license": "CC BY 4.0",
+    "url": "https://raw.githubusercontent.com/Jacob-Baker-Git/CustomPc/45995ba9341a685d71946bc87bbd907b0f60af06/public/models/cooler.glb",
+    "source": "https://sketchfab.com/models/7a0014c1141a4c25bc69912075526ee5"
+  },
+  {
+    "file": "fan.glb",
+    "title": "120mm Computer Fans",
+    "author": "kusuma844",
+    "id": "6c17bfc4a2a5438eb9996fb3c73e1a91",
+    "sha": "57efa20c84c67d34df1cc9be4b6fcad399f9be20",
+    "size": 160000,
+    "license": "CC BY 4.0",
+    "url": "https://raw.githubusercontent.com/Jacob-Baker-Git/CustomPc/45995ba9341a685d71946bc87bbd907b0f60af06/public/models/fan.glb",
+    "source": "https://sketchfab.com/models/6c17bfc4a2a5438eb9996fb3c73e1a91"
+  }
+]
