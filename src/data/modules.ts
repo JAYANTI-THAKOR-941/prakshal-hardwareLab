@@ -28,7 +28,7 @@ trouble:[{p:'Long beeps / no display',s:'RAM nikalkar reseat karo, ek stick ek s
 important:['RAM aur ROM mein difference likho.','DDR4 aur DDR5 compare karo.','Dual channel kya hai?','Volatile memory ka matlab batao.'],
 practical:['Task Manager mein RAM speed/slots dekho.','Ek PC mein RAM install karke POST check karo.']}]
 
-MODULES.push(...[
+const EXTRA_MODULES: Mod[] = [
   {
     "id": "storage",
     "title": "Storage Devices",
@@ -459,7 +459,8 @@ MODULES.push(...[
       "Prepare a diagnostic checklist for a no-display case."
     ]
   }
-])
+]
+MODULES.push(...EXTRA_MODULES)
 export const MODEL_ANSWERS:Record<string,{q:string;a:string}[]>={
   "storage": [
     {
